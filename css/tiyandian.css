@@ -1,0 +1,445 @@
+/*--------------------------------
+*Filename: tiyandian.css;
+*Description: 体验店页面;
+*time: 2015052814;
+*name: liulibao;
+---------------------------------*/
+.form-btn input,.tydsea-btn,.tyd-title a,.tyd-tel .tydbtn,.tyd-more input,.tydbox-msg .tyd-title h4.ico,.tyd-msg .form-btn input{
+  background-image: url(../images/tiyandian.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/* banner 预约 */
+.booking{
+/*  margin-top: -221px;*/
+  width: 100%;
+  height: 555px;
+  background-position: center center;
+}
+.booking .booking-box{
+	padding:210px 0 0 744px;
+	margin: 0 auto;
+	width: 394px;
+	height: 336px;
+	background: url(../images/booking-bg.png) no-repeat 644px 20px;
+}
+.booking .booking-box .form-group{padding-bottom: 15px;}
+.booking .booking-box label{
+	font-weight: lighter;
+	font-size: 14px;
+	color: #40220f;
+}
+.booking .booking-box input[type="text"]{
+	padding: 2px 10px;
+	width: 200px;
+	height: 24px;
+	border: solid 1px #c3c3c3;
+}
+.booking-box .form-btn input{
+	height: 36px;
+	border: none;
+	outline: none
+}
+.booking .booking-btn{
+	margin-left:48px;
+	margin-right: 23px; 
+	width: 80px;
+}
+.booking .booking-kefu{
+	width: 116px;
+	background-position: 0 -40px;
+}
+.booking .booking-box h4{
+	padding-top: 60px;
+	padding-right: 20px;
+	text-align: right;
+	color: #2D170B;
+}
+.booking-box h4 b{font-size: 25px;color: #2D170B}
+/*主体*/
+.tydbox h3{
+    font-size: 14px;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #575352;
+	overflow: hidden;
+}
+.tydbox h3 a{
+	float: right;
+	padding-top: 8px;
+	color: #727171;
+	font-size: 14px;
+}
+.tydbox .h3-bj{
+    height:30px;
+    font-size: 14px;
+	padding-bottom:16px;
+	background: url(../images/h3-bj.png) no-repeat 0 40px;
+}
+
+.clues{
+	display: block;
+	position: relative;
+}
+.clues span{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.6);
+	text-align: center;
+}
+.tyd-ulbox{width: 100%;}
+.tyd-ulbox li{
+	padding: 0 13px 12px 0;
+	background: url(../images/booking-list.png) no-repeat;
+}
+.tyd-ulbox a{
+	width: 366px;
+	height: 268px;
+}
+.tyd-ulbox span{
+	width: 100%;
+    height:40px;
+    line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+}
+/*体验店搜索*/
+.tyd-search{
+	background:url(../images/tiyandiansecbj.png) repeat-x;
+}
+.tyd-search .form-group{
+	float: left;
+	padding:18px 0 15px 24px;
+	width: 260px;
+}
+.tyd-search .form-control{padding:9px 15px;}
+.tydsea-btn{
+	width: 87px;
+	height: 38px;
+	background-color: transparent;
+	background-position: 0 -80px;
+	border: none;
+}
+/*体验店列表*/
+.tyd-list{
+	width: 105%;
+	overflow: hidden;
+}
+.tyd-box{
+	float: left;
+	_display: inline-block;
+	margin-bottom:12px;
+	margin-right:10px;
+	width: 560px;
+	overflow: hidden;
+}
+.tyd-title{
+	color: #fff;
+	font-size: 16px;
+	border-radius: 10px 10px 0 0;
+	background-color: #4a4a4b;
+}
+.tyd-title a{
+	float: right;
+	padding-left: 16px;
+	color: #fff;
+	font-size: 12px;
+}
+.tyd-box .tyd-title{
+    font-size: 14px;
+	padding: 0 35px;
+	width: 490px;
+	line-height: 40px;
+}
+.tyd-box .tyd-title a{
+    font-size: 14px;
+	background-position: 0 -160px;
+}
+.tyd-con{
+	padding: 16px 35px 20px;
+	background: url(../images/tyd.png) repeat-x;
+}
+.tyd-con .clues{
+	padding: 0 6px 17px;
+	width: 256px;
+	height: 210px;
+	background: url(../images/tyd-photo.png) no-repeat 0 210px;
+}
+.tyd-con .clues span{
+	bottom: 17px;
+	left: 6px;
+	width: 256px;
+	line-height: 42px;
+	font-size: 16px;
+	color: #c89150;
+}
+.tyd-msg{
+	float: right;
+	width: 200px;
+}
+.tyd-msg p{
+	margin: 0 0 5px;
+	font-size: 13px;
+	line-height: 20px;
+	color: #727171;
+}
+.tyd-msg p b{color: #3e3a39}
+.tyd-tel{
+	padding-top: 10px;
+}
+.tyd-tel input{vertical-align: top;}
+.tyd-tel .tydphone{
+	padding: 2px 10px;
+	width: 108px;
+	height: 16px;
+}
+.tyd-tel .tydbtn{
+	width: 54px;
+	height: 28px;
+	border: none;
+	outline: none;
+	background-position: 0 -130px;
+}
+.tyd-more{padding-bottom: 22px;}
+.tyd-more input{
+	display: block;
+	margin: 0 auto;
+	width: 130px;
+	height: 48px;
+	border:none;
+	background-position: 0 -200px;
+}
+/*热卖*/
+.sliding{
+	position: relative;
+	width: 100%;
+	height: 188px;
+}
+.slidingbtn{
+	position: absolute;
+	top: 0;
+	width: 40px;
+	height: 180px;
+	background-image:url(../images/index-slide.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.slidingbtn.prev{
+	left: -40px;
+	background-position: 0 66px;
+}
+.slidingbtn.next{
+	right: -40px;
+	background-position: -40px 66px;
+}
+.sliding-con{
+	position: relative;
+	width:100%;
+	height: 188px;
+	overflow: hidden;
+}
+.sliding-slist{
+	position: absolute;
+	width: 200%;
+}
+.sliding-slist li{
+	padding:0 8px 8px 0;
+	margin-right: 2px;
+	background: url(../images/tyd-sliding.png) no-repeat;
+}
+/*微博*/
+.tydbox-msg{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.tydbox-msg .tyd-title{
+	padding: 0 35px;
+	width: 1068px;
+	height: 56px;
+	font-size: 22px;
+}
+.tydbox-msg .tyd-title h4{
+	padding-top: 20px;
+	margin: 0;
+	font-size: 14px;
+}
+.tydbox-msg .tyd-title h4.ico{
+	padding-left: 50px;
+	background-position: 0 -260px;
+	padding-bottom: 10px;
+}
+.tydbox-msg .tyd-title a{
+	margin-top: 20px;
+	background-position: 0 -172px;
+}
+.wb-box{
+	width: 100%;
+	height: 500px;
+	background: url(../images/tiyandianweibo.png) repeat-x;
+}
+.zixun-box{
+	padding-top:28px;
+}
+.zixun{
+	width:1048px;
+	box-shadow:2px 2px 5px 2px;
+	margin-left:45px;
+	padding-top:25px;
+	color:#787878;
+
+}
+.zixun ul{
+	padding:0px;
+}
+.zixun li{
+	background:url(../images/dot.png) no-repeat left center;
+	padding:5px 0;
+	text-indent:20px;
+	/*margin-bottom:20px;*/
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+
+}
+.zixun .zixiu-block2{overflow: hidden;padding-bottom: 10px;}
+.zixun .zixiu-block2 li{border-bottom: 1px solid #d0d0d0;padding-bottom: 0;margin:0;line-height: 35px;white-space:normal;}
+.zixun .zixiu-block2 li.zixiu_li_tb{background:url(../images/dot.png) no-repeat left 20px;text-indent:0;padding-left: 20px;}
+
+.zixun .zixiu-block4{overflow:hidden;border-bottom: 1px solid #d0d0d0;}
+.zixun .zixiu-block4.zixiu-block4-last{margin-top:20px;border-bottom: none;}
+.zixiu-block-lfImg{float:left;width: 170px;height: 165px;}
+.zixiu-block-lfImg img{width: 170px;height: 165px;}
+.zixiu-block-rtBox{float:right;width: 120px;padding-left: 10px;}
+.netscroll{
+	width:294px;
+	height:184px;
+	backface-visibility:hidden;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	
+}
+
+.netscroll img {
+    height: 100%;
+    width: 100%;
+}
+.pagination{
+	bottom: 10px;
+    position: absolute;
+    text-align: right;
+    width: 96%;
+    z-index: 20;
+}
+.swiper-pagination-switch {
+    background: #555 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 0 5px;
+    opacity: 0.8;
+    width: 8px;
+}
+.swiper-active-switch {
+    background: #fff none repeat scroll 0 0;
+}
+.box-l{
+	width:294px;
+	margin-left:30px;
+}
+.zixiu-block1{
+	margin-top:40px;
+	margin-left:4px;
+
+}
+.zixiu-block1 li{
+    margin-bottom: 5px ;
+	width:244px;
+	height:18px;
+	overflow:hidden;
+}
+.zixiu-block1 li a{font-size: 12px;}
+.box-m{
+	width:288px;
+	margin-left:30px;
+}
+.box-r{
+	width:309px;
+	margin-left:48px;
+}
+/*单点css*/
+.tyddd-msg{
+	margin: 35px 0;
+	width: 100%;
+	height: 396px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}
+.tyddd-msg h2{
+  margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: 500;
+	color: #40220f;
+}
+.tyd-msgbox{
+	padding-left: 110px;
+	width: 486px;
+}
+.tyd-msgbox h2{
+	padding: 40px 0 20px;
+	border-bottom: solid 2px #9a887b;
+}
+.tyd-msgbox p{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #3e3a39;
+	overflow: hidden;
+}
+.tyd-msgbox span{
+	float: left;
+}
+.tyd-msgbox .msgspan{width: 410px;}
+.tyddd-msg .booking-box{
+	padding-top:40px;
+	width: 400px;
+}
+.tyddd-msg .booking-box .form-group{padding-bottom: 15px;}
+.tyddd-msg .booking-box h2{font-weight: 600}
+.tyddd-msg label{
+	font-size: 16px;
+	font-weight: lighter;
+}
+.tyddd-msg input[type="text"]{
+	padding:2px 10px;
+	width: 158px;
+	height: 22px;
+}
+.tyddd-msg .form-btn input{
+	height: 30px;
+}
+.tyddd-msg .booking-btn{
+	margin: 0 12px 0 55px;
+	width: 66px;
+	background-position: 0 -320px;
+}
+.tyddd-msg .booking-kefu{
+	width: 96px;
+	background-position: 0 -360px;
+}
+.tyddd-msg h4{
+	max-width: 324px;
+	padding-left: 50px;
+	padding-top: 20px;
+	color: #3e3a39
+}
+#tabox2{position:fixed;width:100%;height:100%;z-index:1000;left:0;right:0;bottom:0;}
+.mall_submit{ display: block; width:226px; height: 44px; margin: 25px auto; background: url("../images/tabbox-bm.jpg") no-repeat; border:none; cursor: pointer; }
+

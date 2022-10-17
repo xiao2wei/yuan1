@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*
+ * 分页控件pager
+ */
+.page {width:100%;overflow:hidden;display:block;pagesize:12px; padding:20px  0 ;background-color:#fff;text-align: center; line-height: 25px;}
+.simple-page {overflow:hidden;pagesize:12px; background-color:#fff;text-align: center; line-height: 25px;}
+.simple-page a, .simple-page span { color:#333; text-decoration:none;cursor: pointer; padding: 0 10px; border: 1px solid #dedede; display: inline-block; font-size: 12px; margin-right: 5px; line-height: INHERIT;}
+.simple-page .disable { background-color:#f7f7f7; cursor: default; color: #999; }
+.simple-page a:hover { background-color: #c7ccd0;border-color: #c7ccd0; text-decoration: none; color: #fff;  }
+.simple-page .href{display:inline-block;*display:inline;*zoom:1;margin-left:15px;border:none;height:30px;overflow:hidden;vertical-align:middle;}
+.page {width:100%;overflow:hidden;display:block;pagesize:12px; background-color:#fff;text-align: center; line-height: 25px;}
+.page a,.page span { color:#333; text-decoration:none;cursor: pointer; padding: 0 10px; border: 1px solid #dedede; display: inline-block; font-size: 12px; margin-right: 5px; }
+.page .disable { background-color:#f7f7f7; cursor: default; color: #999; }
+.page a:hover,.page .on,.page .current { background-color: #666;border-color: #c7ccd0; text-decoration: none; color: #fff;  }
+.page .on { cursor: default; }
+.page .dot { cursor: default; border: none; vertical-align: 5px; }
+.page .href{display:inline-block;*display:inline;*zoom:1;margin-left:15px;border:none;height:30px;overflow:hidden;vertical-align:middle;}
+.page label{ vertical-align:middle;font-weight: normal;margin: 0;}
+.page .a_text{margin:0 5px;width:21px;border:1px solid #dedede;text-align:center;height:23px;line-height:18px; vertical-align:top;}
+.page .a_text:focus{border-color:#a40000;}
+.page .a_button{margin-left:10px;background-color:#c7ccd0;color:#fff;width:40px;text-align:center;border:0;height:25px;line-height:25px; vertical-align:top; cursor:pointer;}
+.app_submit{
+    margin-top: 30px;
+    width:118px;
+    height:46px;
+    font-size:18px;
+    color:#40220F;
+    border: none;
+    float: left;
+    background:url("../images/together.png") 0  -50px  no-repeat;
+}

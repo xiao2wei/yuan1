@@ -1,0 +1,105 @@
+ul{ margin: 0; padding: 0; }
+img{ display: inherit; }
+#jiathis_webchat img{ margin: auto; }
+.zarticle-tit{ height: 43px; background:url(../images/zarticle.jpg) bottom no-repeat; position: relative; }
+.zarticle-tit ul{ width: 1070px; margin: auto }
+.zarticle-tit li{ line-height: 40px; display: inline-block; font-size: 18px; margin-left: 28px; margin-right: 28px; cursor: pointer; }
+.curBg { background:#000;height:3px;position:absolute;bottom:0;width:68px;left:144px;}
+.imgdb{ display: block; margin: auto; }
+.mt20{ margin-top: 20px; }
+.zart-pic{ float: left; display: block; width: 164px; height: 150px; margin-left: 30px; box-shadow: 2px 2px 10px -5px #000;  }
+.zart-desc{ float: right; width: 828px; margin-right: 50px; text-align: left; line-height: 30px; font-size: 13px; padding-top: 20px; }
+.zarticle-list li{ padding-bottom: 50px; border-bottom: 1px solid #e7e7e7; padding-top: 50px; }
+.zarticle-list li:hover{ background: #eeeeee }
+.zarticle-list li a:hover img{ width:162px; height: 148px; border:1px solid #ca9a61; }
+.jiathis_style{ display: inline-block; vertical-align: middle;margin-top: -2px;}
+/*资讯详情*/
+
+.zart-content{background:url(../images/ae-ltmenubg-t.jpg) left top no-repeat,url(../images/ae-ltmenubg-b.jpg) #f8f8f8 no-repeat right bottom;padding: 5px; }
+.zart-content .zart_color{background: #f8f8f8; height:auto;overflow: hidden;}
+.zart-content h3{ text-align: center; margin-top:0;padding-top: 10px; }
+
+#content.zart-content h3{border-bottom: 1px solid #e7e7e7;padding-bottom: 10px; }
+.titbar{ text-align: center; border-bottom: 1px solid #e7e7e7; line-height: 30px; margin-bottom: 30px; }
+.titbar span{ margin-left: 5px; margin-right: 5px; }
+.zarticlecont { line-height: 30px;padding:45px;background: #f8f8f8;}
+.x_page{
+	width:942px;
+	margin-left:10px;
+		border-top:1px solid #D7D7D7;
+	font-size:12px;
+
+}
+.x_page span{
+	display: inline-block;
+ 	margin-top: -2px;
+	padding:15px 16px 0px 16px;
+	cursor:pointer;
+	float:left;
+
+}
+.x_page .chosen{
+	color:#3e3a39;
+	border-top:2px solid #3e3a39;
+
+}
+.x_page .chosen a{
+	color:#3e3a39;
+}
+.x_page,.x_page a{
+	color:#CCCCCC;
+}
+.x_page_i{
+	margin-left:116px;
+}
+.x_page .x_page_pt,.x_page .x_page_nt{
+	color:#f8f8f8;
+}
+.x_page_pt{
+	background:url(../images/page_l.png) no-repeat left bottom;
+}
+.x_page_nt{
+	background:url(../images/page_r.png) no-repeat left bottom;
+}
+.x_page .x_page_t input[type='text']{
+	width:45px;
+	height:20px;
+	margin-left:8px;
+	margin-right:8px;
+}
+.x_page .x_page_t input[type='button']{
+	width:54px;
+	height:24px;
+	border:none;
+	padding:0px;
+	color:#757373;
+	background:url(../images/x_page_gt.jpg) no-repeat;
+}
+
+/* 添加*/
+.zarticle_imgbox{width:1138px;height: 347px;overflow: hidden;margin-top: 20px;}
+.zarticle_img_left{width: 530px;height:347px;float:left;}
+.zarticle_img_left img{width: 530px;height:347px;}
+.zarticle_img_ul{float:right;width: 608px;overflow: hidden;}
+.zarticle_img_ul li{float:right;width: 293px;height: 168px;margin-left:10px;overflow: hidden;}
+.zarticle_img_ul li img{width: 293px;height: 168px;}
+.zarticle_img_ul li.img_top{margin-bottom: 10px;}
+
+/*资讯*/
+.art-main{width: 1138px; margin: auto}
+/*文章*/
+.ae-main{ padding-bottom: 20px; background:#f6f6f6; }
+.ae-main .ae-wrap{ width: 1140px; margin: auto; }
+.ae-main .ae-wrap .ae-ltmenu{width: 190px;min-height:400px;background:url(../images/ae-ltmenubg-t.jpg) left top no-repeat,url(../images/ae-ltmenubg-b.jpg) right bottom no-repeat ; text-align: center; padding:20px 0;float:left }
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist{line-height: 30px; margin:10px 25px;}
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist .h-ltlist_ul{border-bottom:1px solid #b3b3b4;width: 70%;margin:auto;}
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist span{font-size:12px; display: block; text-align: left;padding-left: 40px; cursor: pointer;  background:url(../images/jiaj.png) 5px -37px no-repeat; color: #40220f }
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist span.minus_bg {background: url(../images/jiaj.png) 5px 7px no-repeat; }
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist li{padding:0 20px;text-align:left;box-sizing:border-box;margin-top: 5px;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist li a{ color: #939292; }
+.ae-main .ae-wrap .ae-ltmenu .h-ltlist li a:hover{color: #d4a661}
+.ae-main .bread-nv{width: 1140px; margin: auto; height:70px;}
+.ae-main #help_nav{line-height: 70px; font-size: 16px;}
+.ae-main .ae-wrap .ae-rtcont{width: 500px;float:left;}
+
+

@@ -1,0 +1,40 @@
+#footer{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none; padding-bottom: 60px;}
+*{margin:0; padding:0;}
+html,body{margin:0; padding:0;}
+body{min-width: 1080px;}
+.sub-pro  ul{margin-left: 0px !important;}
+
+img{ border:none; display: block; }
+.mdimg{ display: block; margin:0 auto; }
+.txit-title{font-family: arial,  sans-serif; color: #0b0b0b;width:990px; text-align: center; margin:0 auto; margin-top: 60px; margin-bottom: 40px;  font-size: 33px;tab-index: center; }
+.ming_22{margin:60px auto;}
+.content{min-width:990px; margin:0 auto; }
+.text{text-align:center; display: block; cursor: pointer; color:  #0b0b0b; font-size: 14px; padding:40px 0 40px 0;}
+.content   a{text-decoration: none !important;  }
+.content  a:hover{text-decoration: none ; color: #4e4e4e; }
+.wrap1{ height: 502px; }
+.wrap2,.wrap3{width:990px; overflow: hidden; margin:0 auto;}
+.wrap2 a{width:485px; display: block; float: left; }
+.wrap2 a img{width:485px; }
+.wrap2 a span{display: block; height:50px;padding-top: 20px; position: relative;  color: #0b0b0b; font-size: 15px; text-align: center;}
+.wrap2 a span .onle{position: absolute ; background:#0b0b0b; width:20px; height:1px; top:30px; left:190px;}
+.wrap2 a span .onle1{position: absolute ; background:#0b0b0b; width:20px; height:1px; top:30px; right:195px;}
+.wrap2 a.right{margin-right: 20px;}
+.wrap2 a span  .ii{width:10px; height:2px; background: #0b0b0b;}
+.warp3{ margin-top:30px;}
+.wrap3 .a_left{width:414px; height:438px; float: left; display: block;}
+.wrap3 .a_right{width:556px; height:438px; float: right; display: block;}
+
+/*轮播*/
+.banner{width:990px; position: relative; height:391px; margin:0 auto; margin-bottom: 20px;}
+.swiper-container{width:990px; height:391px;}
+.banner  .arrow-left {  position: absolute; background:url(../images/anniu.png) ; z-index: 100; left: 5px;  top: 50%; margin-top: -20px; width: 60px;  height: 60px;   }
+.banner .arrow-right {  position: absolute;  background:url(../images/anniu.png) -60px;  z-index: 100; right: 20px;  margin-top: -20px;  top: 50%;  width: 60px;  height: 60px; }
+.banner .pagination {position: absolute; display: none;  left: 0;  text-align: center;  bottom:5px;  width: 100%;  }
+.swiper-pagination-switch {  display: inline-block;  width: 10px;  height: 10px;  border-radius: 10px;  background: #cbcbcb;  box-shadow: 0px 1px 2px #cbcbcb inset;  margin: 0 3px;  cursor: pointer;  }
+.swiper-active-switch {  background: #979393;  }
+.hunli_vedio{width:990px;  height:391px; display:block; position: relative; z-index: 10;}
+.banner .vedio{position: absolute;z-index: 50; width:471px; height:303px;  top:47px; left:72px;}
+
+.forvedio{ position: relative; }
+.misswed{ width:482px; height:138px; margin:10px auto;  }

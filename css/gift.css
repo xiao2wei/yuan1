@@ -1,0 +1,53 @@
+body{ background: #fff; }
+a:hover{ text-decoration: none }
+.gfmain1-1r img,.gfmain1-1r img,.gfmain1-2l img{ max-width: 100%; }
+
+.gfban{ height: 696px; text-indent: -999em; }
+.gfban a{ display: block; width:100%; height: 100%;	}
+.gfmain1,.gfmain2,.gfmain3,.gfmain4{ width:990px; margin:auto; }
+.gfmain1{ margin-top:50px; }
+.gfmain1-1l{ width: 390px; height: 218px; padding-top: 60px; background: #FFEFE3; text-align: center }
+.gfmain1-1l{ font-size: 14px; }
+.gfmain1-1l a{ display: inline-block; width: 102px; height: 26px; margin-top: 30px; text-align: center; line-height: 26px; color: #fff; font-size: 14px; }
+.gftit{ font-family: "SimSun"; font-size: 50px; }
+.gfmain1-1r{ width: 590px; height: 278px; }
+.gfmain1-2l{ width: 390px; height: 408px; }
+.gfmain1-2{ margin-top: 16px; }
+
+.gfmain2{ margin-top: 60px; }
+.gfmain2l{ width: 390px; }
+.gfmain2l-1{ height: 194px; padding-top: 60px; background: #FFEFE3; text-align: center }
+.gfmain2l-1 p{ font-size: 14px;}
+.gfmain2l-1 a{ display: inline-block; width: 102px; height: 26px; margin-top: 30px; text-align: center; line-height: 26px; color: #000; border:1px solid #000; font-size: 14px; }
+.gfmain2l-2{ margin-top: 14px; }
+.gfmain2r{ width: 590px; }
+.gfmain2r-1{ height: 510px; }
+.gfmain2r-1{ height: 430px; }
+
+.gfmain3{ margin-top: 60px; }
+.gfmain3l{ width: 390px; }
+.gfmain3l-1{ height: 200px; padding-top: 70px; background: #FFEFE3; text-align: center }
+.gfmain3l-1 p{ font-size: 14px;}
+.gfmain3l-1 a{ display: inline-block; width: 102px; height: 26px; margin-top: 30px; text-align: center; line-height: 26px; color: #000; border:1px solid #000; font-size: 14px; }
+.gfmain3l-2{ height: 458px; margin-top: 14px; }
+.gfmain3r{ width: 590px; }
+.gfmain3r-1{ height: 425px; }
+.gfmain3r-2{ height: 318px; }
+
+.gfmain4{ margin-top: 30px; border-top: 4px solid #F5F5F5; }
+.gfmain4l{ width: 390px; text-align: center; font-family: "SimSun" }
+.gfmain4l h2{ background: url(../images/block.jpg) center bottom no-repeat; padding-bottom: 30px; margin-bottom: 20px; padding-top: 180px; }
+.gfmain4l p{ font-size: 16px; }
+.gfmain4r{ width: 590px; }
+.gfmove{ width: 590px; overflow: hidden; }
+.gfmove img{ margin-left: 0; }
+.gfmain1-1l a, .gfmain2l-1 a, .gfmain3l-1 a {color: #000; border: 1px solid #000;}
+.gfmain1-1l a:hover, .gfmain2l-1 a:hover, .gfmain3l-1 a:hover {  color: #fff; background: #EAB69C; border: 0;}
+
+
+
+
+
+
+
+

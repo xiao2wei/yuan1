@@ -1,0 +1,33 @@
+/*
+kela.cn
+2015-6-4 designed by 王锦
+version 1.0
+*/
+
+/*用户中心 个人资料编辑*/
+.zurbasel li span, .zuractor li span, .zurfmore li span{float: left;}
+.zurbasel li, .zuractor li, .zurfmore li{overflow: hidden;}
+.zurbase-info .j_zurbasel_input{width:245px;height:35px;border:1px solid #a9a9a9;background:none;line-height: 35px;padding:0 5px;box-sizing: border-box;}
+
+.zurbase-info .j_sex_radio{margin-right:4px;}
+.zurbase-info .j_select_change{display:inline-block;width:134px;height: 35px;background:none;margin:0 7px 0 0;padding:0 5px;box-sizing: border-box;}
+
+.zurbase-info .j_addr_textarea{width: 430px;height: 70px;margin:5px 0;line-height:25px;border:1px solid #a9a9a9;resize: none;background:none;vertical-align: top;box-sizing: border-box;}
+
+.j_select_xingzuo{width:245px;height: 35px;background: none;padding: 0 5px;box-sizing: border-box;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
